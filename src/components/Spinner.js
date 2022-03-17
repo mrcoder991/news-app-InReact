@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Loading from './loading.gif'
+import Loading from './loading.svg'
 
 export default class Spinner extends Component {
   render() {
     return (
         <div className="d-flex align-items-center justify-content-center"  style={{minHeight: '100vh' }}>
-            <img src={Loading} alt="Loading" />
+        <img src={Loading} alt="Loading" style={{width: '5em'}}/>
       </div>
     )
   }
