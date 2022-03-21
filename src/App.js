@@ -9,7 +9,7 @@ import { Routes, Route } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar';
 
 export default class App extends Component {
-  apiKey = "947cc1e70d864f97b3ae51200b8d9658"
+  apiKey = process.env.REACT_APP_API_KEY;
   pageSize = 6;
   country = 'in';
 
